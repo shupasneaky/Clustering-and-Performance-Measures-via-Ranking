@@ -26,11 +26,6 @@ preprocess <- function(d) {
 
 # List of files to process
 files <- c(
-  "Beutner_mice_age_sc_data/BEUTNER_data.RData",
-  "Yan_sc_data/YAN_data.RData",
-  "Pollen_sc_data/POLLEN_data.RData",
-  "Goolam_sc_data/GOOLAM_data.RData",
-  "Deng_sc_data/DENG_data.RData",
   "Baise_sc_data/BAISE_data.RData"
 )
 
