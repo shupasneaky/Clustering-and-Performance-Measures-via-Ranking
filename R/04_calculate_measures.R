@@ -48,18 +48,3 @@ create_index <- function(len, k) {
 load("Baise_sc_data/BAISE_data_preprocessed.RData")
 do_measures("BAISE", fold_index = create_index(len=ncol(sce), k=ncol(sce)), knwn_vec = gsub("_.*", "", colnames(sce)))
 
-load("Deng_sc_data/DENG_data_preprocessed.RData")
-do_measures("DENG", fold_index = create_index(len=ncol(sce), k=ncol(sce)), knwn_vec = gsub("_.*", "", colnames(sce)))
-
-load("Goolam_sc_data/GOOLAM_data_preprocessed.RData")
-do_measures("GOOLAM", fold_index = create_index(len=ncol(sce), k=ncol(sce)), knwn_vec = gsub("_.*", "", colnames(sce)))
-
-load("Yan_sc_data/YAN_data_preprocessed.RData")
-do_measures("YAN", fold_index = create_index(len=ncol(sce), k=ncol(sce)), knwn_vec = gsub("_.*", "", colnames(sce)))
-
-load("Pollen_sc_data/POLLEN_data_preprocessed.RData")
-do_measures("POLLEN", fold_index = create_index(len=ncol(sce), k=ncol(sce)), knwn_vec = gsub("_.*", "", colnames(sce)))
-
-load("Beutner_mice_age_sc_data/BEUTNER_data_preprocessed.RData")
-do_measures("BEUTNER", fold_index = create_index(len=ncol(sce), k=100), knwn_vec = gsub("_.*", "", colnames(sce)))
-
