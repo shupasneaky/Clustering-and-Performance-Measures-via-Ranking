@@ -42,8 +42,4 @@ format_as_dataframe <- function(name, cs){
 }
 
 format_as_dataframe("BAISE", 2:7)
-format_as_dataframe("POLLEN", 2:14)
-format_as_dataframe("GOOLAM", 2:8)
-format_as_dataframe("DENG", 7:13)
-format_as_dataframe("YAN", 5:12)
-format_as_dataframe("BEUTNER", 2:30)
+
